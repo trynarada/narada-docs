@@ -1,0 +1,45 @@
+site_name: Narada Docs
+site_url: https://docs.trynarada.com/
+site_author: Lakshay Mittal
+site_description: A collection of documentation for different products and services that Narada offers.
+
+copyright: Lakshay Mittal &copy; 2024. All rights reserved.
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.footer
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-6
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  favicon: assets/icons/narada.png
+  logo: assets/icons/narada.png
+
+markdown_extensions:
+  - attr_list
+  - footnotes
+
+nav:
+  - Introduction: index.md
+  - Android/iOS App:
+      - Getting started: android-ios-app/getting-started.md
+      - Logging in: android-ios-app/logging-in.md
+  - Web App: web-app.md
+  - API: api.md
