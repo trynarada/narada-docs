@@ -20,14 +20,14 @@ theme:
       primary: white
       accent: blue
       toggle:
-        icon: material/brightness-7
+        icon: material/brightness-5
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       accent: blue
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-2
         name: Switch to system preference
   favicon: assets/icons/narada.png
   logo: assets/icons/narada.png
