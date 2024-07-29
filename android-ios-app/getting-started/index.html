@@ -137,7 +137,7 @@
     <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-2.69L23.31 12 20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69Z"/></svg>
       </label>
     
   
@@ -147,7 +147,7 @@
     <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 2c-1.82 0-3.53.5-5 1.35C8 5.08 10 8.3 10 12s-2 6.92-5 8.65C6.47 21.5 8.18 22 10 22a10 10 0 0 0 10-10A10 10 0 0 0 10 2Z"/></svg>
       </label>
     
   
@@ -393,6 +393,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -402,6 +413,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ipos" class="md-nav__link">
+    <span class="md-ellipsis">
+      IPOs
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -496,6 +535,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ipos" class="md-nav__link">
+    <span class="md-ellipsis">
+      IPOs
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -512,6 +568,19 @@
 <h1 id="getting-started">Getting started</h1>
 <p><a href="https://play.google.com/store/apps/details?id=com.trynarada.narada"><img alt="Google Play" src="../../assets/badges/google-play.png" width="144" /></a>
 &nbsp;<a href="https://apps.apple.com/in/app/narada-check-ipo-allotment/id6473508805"><img alt="App Store" src="../../assets/badges/app-store.svg" width="128" /></a></p>
+<p>Narada's Android/iOS app is a secure and minimalistic IPO dedicated app used by more than 1,00,000 users every month. Its key feature as of now is the ability to check IPO allotments with a single click.</p>
+<p>We've tried to make everything simple enough so that no one would need to go through any documentation to use the app, but there can always be some areas where we miss.</p>
+<h2 id="ipos">IPOs</h2>
+<p>The first screen you'll encounter after you've installed the app and it has completed loading is the IPOs screen.</p>
+<p>You can do 4 things on this screen:</p>
+<ol>
+<li>Pull down to refresh.</li>
+<li>Switch between <code>Upcoming</code>, <code>Ongoing</code> and <code>Allotted</code> tabs as per your need.</li>
+<li>Toggle the IPOs to show <code>Main IPOs</code> or <code>All IPOs</code> from the top right.</li>
+<li>Tap on the IPO you want to explore more about.</li>
+</ol>
+<p><img alt="IPOs" src="../../assets/gifs/ipos.gif" width="384" /></p>
+<p>Yes, there are ads and Narada can't survive without those because the app is completely free to use at this point. The good news is there is only one ad placement and that too in a way that it won't bother most users and we are looking forward to keep it that way. This generates just enough income to pay off the operational costs of Narada.</p>
 <div class="footnote">
 <hr />
 <ol>
